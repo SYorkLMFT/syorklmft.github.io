@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Susan Marie York, LMFT | New Haven, CT Trauma Therapist</title>
+  <meta name="description" content="Contact Susan Marie York, LMFT to inquire about trauma therapy, EMDR, and individualized care for PTSD, burnout, anxiety, and complex trauma in New Haven, CT.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Susan Marie York, LMFT</a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="toggleNav()">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="emdr.html">EMDR</a></li>
+        <li><a href="telehealth.html">Telehealth</a></li>
+        <li><a href="fees.html">Fees &amp; Practice</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <h1>Get in Touch</h1>
+    <p class="subtitle">I welcome your inquiry and look forward to connecting</p>
+  </div>
+
+  <section class="section section-cream">
+    <div class="container">
+      <div class="two-col" style="gap:3rem; align-items:start;">
+
+        <!-- Contact form -->
+        <div>
+          <h2>How Can I Help?</h2>
+          <div class="divider"></div>
+          <p>
+            Beginning therapy is a meaningful step — and finding the right therapeutic relationship matters. If you are interested in working together, I invite you to reach out to schedule a consultation or inquire about services. I will respond as promptly as possible.
+          </p>
+
+          <div class="contact-form" style="margin-top:1.5rem;">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="Your email address" required>
+            </div>
+            <div class="form-group">
+              <label for="reason">Reason for Reaching Out</label>
+              <select id="reason" name="reason">
+                <option value="">Select one…</option>
+                <option value="consultation">Schedule a free consultation</option>
+                <option value="individual">Individual therapy inquiry</option>
+                <option value="emdr">EMDR therapy inquiry</option>
+                <option value="telehealth">Telehealth inquiry</option>
+                <option value="fees">Questions about fees / insurance</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Please share a brief note about what brings you here. You are not obligated to share any details you are not comfortable with at this time."></textarea>
+            </div>
+            <button type="button" class="btn-submit" onclick="handleSubmit()">Send Message</button>
+
+            <div class="crisis-notice">
+              <strong>Please note:</strong> Standard email and web forms are not encrypted or HIPAA-secure channels. Please do not submit sensitive clinical information through this form. For anything beyond a general scheduling inquiry, please call directly.<br><br>
+              If you are in crisis or require immediate assistance, please contact the <strong>988 Suicide &amp; Crisis Lifeline</strong> by calling or texting <strong>988</strong>, or go to your nearest emergency room.
+            </div>
+          </div>
+
+          <div id="form-success" style="display:none; background:#e8f5e9; border:1px solid #a5d6a7; border-radius:4px; padding:1.2rem; margin-top:1rem; color:#2e7d32;">
+            <strong>Thank you for reaching out.</strong> I will respond to your inquiry within 1–2 business days.
+          </div>
+        </div>
+
+        <!-- Contact info sidebar -->
+        <div>
+          <h2>Contact Information</h2>
+          <div class="divider"></div>
+
+          <div class="sidebar-card">
+            <h4>Phone</h4>
+            <p><a href="tel:9176572938" style="font-size:1.05rem; font-weight:500; color:var(--teal-dark);">917-657-2938</a></p>
+            <p style="font-size:0.85rem; color:var(--text-light); margin-top:0.3rem;">I typically respond to new inquiries within 1–2 business days.</p>
+          </div>
+
+          <div class="sidebar-card">
+            <h4>Email</h4>
+            <p><a href="mailto:susan@susanmarieyorklmft.com" style="color:var(--teal);">susan@susanmarieyorklmft.com</a></p>
+            <p style="font-size:0.85rem; color:var(--text-light); margin-top:0.3rem;">Please note that standard email is not a HIPAA-secure channel. For clinical matters, please call directly.</p>
+          </div>
+
+          <div class="sidebar-card">
+            <h4>In-Person Location</h4>
+            <p style="font-size:0.9rem;">New Haven, Connecticut</p>
+            <p style="font-size:0.85rem; color:var(--text-light); margin-top:0.3rem;">Specific office address provided upon scheduling.</p>
+          </div>
+
+          <div class="sidebar-card">
+            <h4>Telehealth</h4>
+            <p style="font-size:0.9rem;">Available throughout <strong>Connecticut</strong> and <strong>New York</strong></p>
+            <a href="telehealth.html" style="font-size:0.88rem;">Learn more about telehealth →</a>
+          </div>
+
+          <div class="sidebar-card" style="background:var(--teal-dark); border:none;">
+            <h4 style="color:rgba(255,255,255,0.75); border-bottom-color:rgba(255,255,255,0.2);">Free Consultation</h4>
+            <p style="color:rgba(255,255,255,0.9); font-size:0.9rem;">I offer a complimentary 15-minute phone consultation for new clients. This is a no-pressure opportunity to discuss your needs and determine whether we are a good fit.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Susan Marie York, LMFT</h3>
+          <p>Licensed Marriage &amp; Family Therapist</p>
+          <p>New Haven, CT · Telehealth: CT &amp; NY</p>
+          <p style="margin-top:0.6rem;">
+            Phone: <a href="tel:9176572938" style="color:rgba(255,255,255,0.75);">917-657-2938</a><br>
+            Email: <a href="mailto:susan@susanmarieyorklmft.com" style="color:rgba(255,255,255,0.75);">susan@susanmarieyorklmft.com</a>
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="emdr.html">EMDR Therapy</a></li>
+            <li><a href="telehealth.html">Telehealth</a></li>
+            <li><a href="fees.html">Fees &amp; Practice</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Practice Information</h4>
+          <ul>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="privacy.html">Privacy &amp; Confidentiality</a></li>
+            <li><a href="privacy.html#good-faith">Good Faith Estimate</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-legal">
+          &copy; 2025 Susan Marie York, LMFT. All Rights Reserved.<br>
+          If you are in crisis, call or text <strong style="color:#fff;">988</strong> or go to your nearest emergency room.
+        </div>
+        <div class="footer-license">
+          CT LMFT License No. 001118<br>
+          NY LMFT License No. 000448
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      document.getElementById('nav-links').classList.toggle('open');
+    }
+    function handleSubmit() {
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      if (!name || !email) {
+        alert('Please provide your name and email address.');
+        return;
+      }
+      document.querySelector('.contact-form').style.display = 'none';
+      document.getElementById('form-success').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
