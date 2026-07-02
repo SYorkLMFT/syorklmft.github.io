@@ -467,6 +467,7 @@ strong { font-weight: 600; color: var(--slate); }
   background: var(--slate);
   color: rgba(255,255,255,0.75);
   padding: 3rem 2rem 1.5rem;
+  font-family: var(--font-body);
 }
 .footer-inner {
   max-width: var(--max-w);
@@ -485,9 +486,9 @@ strong { font-weight: 600; color: var(--slate); }
   font-weight: 300;
   margin-bottom: 0.3rem;
 }
-.footer-brand p { font-size: 0.85rem; margin-bottom: 0.4rem; }
+.footer-brand p { font-size: 0.85rem; margin-bottom: 0.4rem; color: rgba(255,255,255,0.75); font-family: var(--font-body); }
 .footer-col h4 {
-  color: rgba(255,255,255,0.9);
+  color: rgba(255,255,255,0.75);
   font-family: var(--font-body);
   font-size: 0.78rem;
   letter-spacing: 0.1em;
@@ -498,8 +499,9 @@ strong { font-weight: 600; color: var(--slate); }
 .footer-col ul { list-style: none; padding: 0; }
 .footer-col ul li { margin-bottom: 0.4rem; }
 .footer-col ul li a {
-  color: rgba(255,255,255,0.65);
+  color: rgba(255,255,255,0.75);
   font-size: 0.88rem;
+  font-family: var(--font-body);
   transition: color 0.2s;
 }
 .footer-col ul li a:hover { color: #fff; text-decoration: none; }
@@ -512,8 +514,8 @@ strong { font-weight: 600; color: var(--slate); }
   gap: 1rem;
   flex-wrap: wrap;
 }
-.footer-legal { font-size: 0.78rem; color: rgba(255,255,255,0.5); line-height: 1.6; }
-.footer-license { font-size: 0.78rem; color: rgba(255,255,255,0.55); text-align: right; line-height: 1.8; }
+.footer-legal { font-size: 0.78rem; color: rgba(255,255,255,0.75); line-height: 1.6; font-family: var(--font-body); }
+.footer-license { font-size: 0.78rem; color: rgba(255,255,255,0.75); text-align: right; line-height: 1.8; font-family: var(--font-body); }
 
 /* ── Telehealth checklist ── */
 .check-list { list-style: none; padding: 0; }
